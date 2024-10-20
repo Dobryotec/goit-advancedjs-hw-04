@@ -84,7 +84,7 @@ async function handleClickBtnLoadMore() {
     const cardEl = document.querySelector('.gallery-item');
     const { height } = cardEl.getBoundingClientRect();
     window.scrollBy({
-      top: height * 3.5,
+      top: height * 3,
       behavior: 'smooth',
     });
     btnLoadMoreEl.textContent = 'Load more';
